@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://seeklogo.com/images/F/flipkart-logo-3F33927DAA-seeklogo.com.png" alt="" width="100px" height="50px" >
+                <!-- <img src="https://seeklogo.com/vector-logo/284422/flipkart" alt="" width="100px" height="50px" > -->
+                <!-- https://seeklogo.com/images/F/flipkart-logo-3F33927DAA-seeklogo.com.png -->
+                
+
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search Here ">
+                <button class="btn">Search</button>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+          <div class="slider">
+            <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="" height="400px" width="100%">
+          </div>
+          <div class="card">
+            <h2>join the cricket fun</h2>
+            <div class="card-item">
+                <img src="https://e7.pngegg.com/pngimages/10/972/png-clipart-brown-gray-nicolls-cricket-bat-gray-nicolls-cricket-bat-batting-pads-cricket-bat-pic-sports-equipment-sports-thumbnail.png" alt="cricket img" height="137px" width="114px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1">Cricket bats</p>
+                <p class="text center my-1">Min 20% off</p>
+                <p class="text center my-1">Grab Now!</p>
+            </div>
+            
+          </div> 
+          <div class="card-item">
+            <img src="https://e7.pngegg.com/pngimages/10/972/png-clipart-brown-gray-nicolls-cricket-bat-gray-nicolls-cricket-bat-batting-pads-cricket-bat-pic-sports-equipment-sports-thumbnail.png" alt="cricket img" height="137px" width="114px">
+        </div>
+        <div class="lines">
+            <p class="text center my-1">Cricket bats</p>
+            <p class="text center my-1">Min 20% off</p>
+            <p class="text center my-1">Grab Now!</p>
+        </div>
+        
+      </div>
+      <div class="card-item">
+        <img src="https://e7.pngegg.com/pngimages/10/972/png-clipart-brown-gray-nicolls-cricket-bat-gray-nicolls-cricket-bat-batting-pads-cricket-bat-pic-sports-equipment-sports-thumbnail.png" alt="cricket img" height="137px" width="114px">
+    </div>
+    <div class="lines">
+        <p class="text center my-1">Cricket bats</p>
+        <p class="text center my-1">Min 20% off</p>
+        <p class="text center my-1">Grab Now!</p>
+    </div>
+    
+  </div>
+  <div class="card-item">
+    <img src="https://e7.pngegg.com/pngimages/10/972/png-clipart-brown-gray-nicolls-cricket-bat-gray-nicolls-cricket-bat-batting-pads-cricket-bat-pic-sports-equipment-sports-thumbnail.png" alt="cricket img" height="137px" width="114px">
+</div>
+<div class="lines">
+    <p class="text center my-1">Cricket bats</p>
+    <p class="text center my-1">Min 20% off</p>
+    <p class="text center my-1">Grab Now!</p>
+</div>
+
+</div>
+<div class="card-item">
+    <img src="https://e7.pngegg.com/pngimages/10/972/png-clipart-brown-gray-nicolls-cricket-bat-gray-nicolls-cricket-bat-batting-pads-cricket-bat-pic-sports-equipment-sports-thumbnail.png" alt="cricket img" height="137px" width="114px">
+</div>
+<div class="lines">
+    <p class="text center my-1">Cricket bats</p>
+    <p class="text center my-1">Min 20% off</p>
+    <p class="text center my-1">Grab Now!</p>
+</div>
+
+</div>
+           
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p >copyright &copy; myflipkartcart.com</p>
+    </footer>
+    
+</body>
+</html>
+
+<!-- https://images.unsplash.com/photo-1512436991641-6745cdb1723f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" -->

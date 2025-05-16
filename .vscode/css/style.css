@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+
+    .progress{
+      background-color: red;
+      height: 3px;
+      animation: load 1s ease-in-out 1;
+  }
+}
+
+  header{
+        height: 77px;
+        background-color: var(--main-bg-color);
+        border: 2px solid rgb(249, 248, 248);
+        font-family:"Roboto", sans-serif; 
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+  }
+
+  .logo img {
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 16px;
+    height: 40px;
+  
+  }
+  nav{
+    display: flex;
+  }
+
+  
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77px;
+    position: relative;
+  left: 13px;
+  padding: 0px 0px;
+    
+  }
+  nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 46px;
+  }
+  nav ul li a:hover{
+    color: rgb(219, 220, 222);
+    font-weight: bolder;
+  }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: "Roboto", sans-serif;
+    }
+    .search{
+      display: flex;
+      align-items: center;
+      
+    }
+    .search input{
+      width: 30vw;
+      height: 35px;
+      border-radius: 27px;
+      padding: 0 18px;
+      margin: 0 18px 0 18px;
+      border: 1px solid rgb(219, 220, 222);
+      font-family: "Roboto", sans-serif;
+    }
+    .btn {
+      padding: 5px 12px;
+      color: white;
+      background:var(--main-bg-color) ;
+      border: 2px solid white;
+      border-radius: 12px;
+      cursor: pointer;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+    }
+      .btn:hover{
+        font-weight: bolder;
+        color: rgb(249, 248, 248);
+        
+      }
+    
+  
+
+    .container{
+            min-height: calc(200vh);
+            background-color:  #e9e4e4;
+
+    }
+
+    @keyframes load {
+      0%{
+          width: 0;
+      }
+      60%{
+          width: 90vw;
+      }
+      100%{
+          width: 100vw;
+      }
+    }
+    .slider{
+      
+      width: 80vw;
+      margin: 12px auto;
+    }
+.container h2{
+  position: relative;
+  left: 640px;
+
+}
+
+
+
+    .card {
+      display: flex;
+      flex-wrap: wrap; 
+      gap: 20px; 
+      justify-content: center; 
+      align-items: flex-start; 
+      margin: 20px 0;
+      position: relative;
+      right: 20px;
+  }
+  
+  .card-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      width: 200px; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+  }
+  
+  .lines p {
+      margin: 5px 0;
+      font-size: 14px;
+  }
+
+
+.btn1{
+  padding: 8px 30px;
+      color:black;
+      background:rgba(255, 217, 0, 0.984) ;
+      border: 3px solid white;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+}
+
+  .btn1:hover{
+        font-weight: bolder;
+        
+      }
+
+      .btn2{
+        padding: 7px 23px;
+            color:black;
+            background: rgba(247, 247, 247, 0.749);
+            border: 3px solid white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+      }
+      
+        .btn2:hover{
+              font-weight: bolder;
+              
+            }
+       
+
+
+
+
+    
+    .my-1{
+      margin: 2px 0;
+    }
+    .my-2{
+      margin: 10px 0;
+    }
+    .text-center{
+      text-align: center;
+    }
+
+ footer{
+    height: 50vh;
+    background-color: var(--main-bg-color);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  display: inline block;
+
+  
+ }
+ .footer-section{
+  text-decoration-color: white;
+  text-decoration: none;
+ }
+ .footer-section h4 ul li{
+  color: whitesmoke;
+  
+ }
